@@ -1,0 +1,23 @@
+@import "common.css";
+
+$colorWhite: white;
+$colorHeaderBackground: $colorGrey;
+
+.header {
+  background-color: $colorHeaderBackground;
+  color: $colorWhite;
+  button {
+    color: $colorWhite;
+    &:hover {
+      color: $colorGrey;
+    }
+  }
+}
+
+.error {
+  color: $colorError;
+}
+
+.modal {
+  @mixin shadow-a;
+}

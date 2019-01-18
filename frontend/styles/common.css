@@ -1,0 +1,39 @@
+/* global variables */
+$colorBlue: #436E8F;
+$colorHalfBlue: #A1C2DB;
+$colorRed: #D43D29;
+$colorOrange: #D7863E;
+$colorAmber: $colorOrange;
+$colorGreen: #7DBC2C;
+$colorPaleGrey: #F2F2F2;
+$colorGrey: #AFAFAF;
+$colorError: #A94442;
+$colorBorder:#D0D0D0;
+$colorWhite: #FFFFFF;
+$colorGreen: #40AC76;
+$colorShadowGrey: #777777;
+$colorLightGrey: #CCCCCC;
+
+$tableToolbarHeight: 40px;
+$tableToolbarMargin: 15px;
+
+/* mixins */
+@define-mixin shadow-a {
+  box-shadow: 3px 3px 6px $colorShadowGrey;
+}
+
+@define-mixin shadow-b {
+  box-shadow: 0 0 8px $colorShadowGrey;
+}
+
+@define-mixin shadow-c {
+  text-shadow: 1px 1px 1px #333;
+}
+
+@define-mixin shadow-d {
+  text-shadow: 1px 1px 1px #41637B;
+}
+
+@define-mixin shadow-e {
+  box-shadow: 0 3px 6px $colorShadowGrey;
+}
