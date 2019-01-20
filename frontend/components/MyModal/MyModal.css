@@ -1,4 +1,4 @@
-@import "common.css";
+@import 'common.css';
 
 $colorWhite: white;
 $colorHeaderBackground: $colorGrey;
@@ -20,4 +20,22 @@ $colorHeaderBackground: $colorGrey;
 
 .modal {
   @mixin shadow-a;
+}
+
+:global div.sort-container {
+  display: inline-block;
+  font: 14px FontAwesome;
+  font-weight: bold;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+:global span.sort-asc:before {
+  content: '\f0dd';
+}
+:global span.sort-desc:before {
+  content: '\f0de';
+}
+
+:global span.sort-none:before {
+  content: '\f0b2';
 }
